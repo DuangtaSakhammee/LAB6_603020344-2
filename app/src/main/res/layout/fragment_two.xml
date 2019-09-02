@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#2B85AD"
+    tools:context=".TwoFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="This is Fragment Two" />
+    <Button
+        android:id="@+id/btnClickFragTwo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="click me" />
+
+</LinearLayout>
